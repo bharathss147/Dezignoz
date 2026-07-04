@@ -50,9 +50,9 @@ const designs = [
         category: "Logo Design",
     },
     {
-        src: "/projects/bumble-bee-banner.png",
-        title: "Bumble Bee Premium Auto Care – Banner",
-        category: "Banner Design",
+        src: "/projects/bumble-bee-poster.jpg",
+        title: "Bumble Bee Premium Auto Care – Poster",
+        category: "Poster Design",
     },
     {
         src: "/projects/dna-clearance-sale.png",
