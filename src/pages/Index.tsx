@@ -88,7 +88,7 @@ const Index = () => {
         >
 
           {/* 1. HERO SECTION (Z = 0) */}
-          <div className="absolute inset-x-0 mx-auto flex flex-col items-center justify-center transform-style-3d" style={{ transform: 'translateZ(0px)', width: '100%', height: '100%' }}>
+          <div className="absolute inset-x-0 mx-auto flex flex-col items-center justify-center transform-style-3d pointer-events-none" style={{ transform: 'translateZ(0px)', width: '100%', height: '100%' }}>
 
             <FloatingElement yRange={15} rotationRange={2}>
               <motion.div
@@ -124,7 +124,7 @@ const Index = () => {
 
 
           {/* 2. WORK SHOWCASE (Z = -2000) */}
-          <div className="absolute inset-x-0 mx-auto flex flex-col items-center justify-center transform-style-3d" style={{ transform: 'translateZ(-2000px)', width: '100%', height: '100%' }}>
+          <div className="absolute inset-x-0 mx-auto flex flex-col items-center justify-center transform-style-3d pointer-events-none" style={{ transform: 'translateZ(-2000px)', width: '100%', height: '100%' }}>
             <div className="text-center mb-16" style={{ transform: 'translateZ(200px)' }}>
               <h2 className="text-5xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-white to-blue-300/50 drop-shadow-[0_0_15px_rgba(255,255,255,0.4)]">
                 Grab Our Work
