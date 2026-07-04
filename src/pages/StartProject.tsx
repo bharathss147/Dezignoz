@@ -175,9 +175,9 @@ ${formData.details}
                                                                 <div className="mt-auto self-start">
                                                                     <span className="inline-block px-3 py-1.5 bg-primary/20 hover:bg-primary/30 text-primary text-xs font-semibold rounded-lg border border-primary/20 transition-colors">
                                                                         Starting from {{
-                                                                            "Poster (Digital Designs)": "₹999",
-                                                                            "Banner / Website Banner": "₹1,999",
-                                                                            "Festival Wishes & Thanking Creatives": "₹1,399",
+                                                                            "Poster (Digital Designs)": "₹799",
+                                                                            "Banner / Website Banner": "₹1,499",
+                                                                            "Festival Wishes & Thanking Creatives": "₹699",
                                                                             "Branding Packages": "₹4,999",
                                                                             "Promotional Advertising Designs": "₹1,999",
                                                                         }[option]}

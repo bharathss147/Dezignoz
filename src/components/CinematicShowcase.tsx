@@ -7,24 +7,7 @@ import { useNavigate } from "react-router-dom";
 import GlassCard from "./GlassCard";
 
 const showcaseWorks = [
-    {
-        id: 1,
-        title: "Company / Business Requirement Designs",
-        category: "Corporate Design",
-        description: "Professional designs for business needs including profiles, cards, and presentations.",
-        link: "/works",
-        image: "/projects/business-requirements.png",
-        color: "from-blue-600/20 to-purple-600/20",
-        x: -32,
-        y: -18,
-        z: -100,
-        rotate: -10,
-        scale: 1.1,
-        delay: 0.2,
-        objectFit: "cover",
-        fullBleed: true,
-        aspect: "aspect-[16/10]"
-    },
+
     {
         id: 2,
         title: "Festival Wishes & Thanking Creatives",
