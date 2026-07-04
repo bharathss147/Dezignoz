@@ -51,6 +51,7 @@ const designs = [
     },
     {
         src: "/projects/bumble-bee-poster.jpg",
+        fullSrc: "/projects/bumble-bee-banner.png",
         title: "Bumble Bee Premium Auto Care – Poster",
         category: "Poster Design",
     },
@@ -110,7 +111,7 @@ const CompanyRequirements = () => {
                             transition={{ duration: 0.5, delay: index * 0.1 }}
                         >
                             <GlassCard className="group overflow-hidden p-0 h-full" delay={index * 0.1}>
-                                <div className="relative overflow-hidden cursor-pointer aspect-[4/5]" onClick={() => setSelectedImage(design.src)}>
+                                <div className="relative overflow-hidden cursor-pointer aspect-[4/5]" onClick={() => setSelectedImage(design.fullSrc || design.src)}>
                                     <motion.img
                                         src={design.src}
                                         alt={design.title}
